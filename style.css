@@ -1,0 +1,89 @@
+/*
+Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%)
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.paragraph-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    padding: 5px;
+    
+}
+
+.icon-list{
+    width: 13px;
+    height: 13px;
+}
+
+.right-box{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+height: 300px;
+width: 300px;
+}
+
+.right-image{
+height: 100%;
+width: 100%;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 9px;
+}
+
+.email{
+    padding: 5px 10px;
+    margin-top: 4px;
+border-radius: 5px;
+width: 250px;
+border: 1px solid #bcbcbc;
+}
+
+button{
+background-color: black;
+color:  hsl(0, 0%, 100%);
+margin-top: 15px;
+padding: 10px 10px;
+border-radius: 5px;
+width: 250px;
+}
