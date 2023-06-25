@@ -19,22 +19,29 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 .container{
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-evenly;
+    padding: 20px;
     border-radius: 10px;
 }
 
+.left-box{
+    /* flex-basis: 150px; */
+    width: 300px;
+}
+
 h1{
-    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
 }
 
 p{
-    font-size: 16px;
+    font-size: 12px;
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -45,20 +52,25 @@ p{
 
 .paragraph{
     padding: 5px;
+    margin-bottom: 20px;
     
 }
 
+
+.para{
+margin-bottom: 5px;
+}
 .icon-list{
     width: 13px;
     height: 13px;
 }
 
 .right-box{
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     /* flex-direction: column; */
 height: 300px;
-width: 300px;
+width: 220px;
 }
 
 .right-image{
@@ -86,4 +98,24 @@ margin-top: 15px;
 padding: 10px 10px;
 border-radius: 5px;
 width: 250px;
+}
+
+@media (max-width:500px){
+.container{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding: 0;
+}
+
+.left-box{
+    padding: 20px;
+}
+
+.right-box{
+width: 100%;
+}
+
+.right-image{
+    width: 100%;
+}
 }
