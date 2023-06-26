@@ -66,6 +66,10 @@ margin-bottom: 5px;
 }
 
 .right-box{
+    background-image: url("illustration-sign-up-desktop.svg");
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     /* display: flex; */
     /* align-items: center; */
     /* flex-direction: column; */
@@ -113,9 +117,9 @@ width: 250px;
 
 .right-box{
 width: 100%;
-}
+background-image: url("illustration-sign-up-mobile.svg");
+background-size: cover;
+background-position: center;
 
-.right-image{
-    width: 100%;
 }
 }
